@@ -13,9 +13,17 @@ var generateBtn = document.querySelector("#generate");
 var passwordText = document.querySelector("#password");
 generateBtn.addEventListener("click", writePassword)
 
-var numbchar = 10;
+
 
  function writePassword() {
+  
+  
+ var numbchar =  prompt ("enter a number between 8 and 128")
+  if (numbchar <8 || numbchar > 128){
+      alert("You entered a invalid number" )
+      
+  }
+  
   var password = '';
 for (i = 1; i < numbchar; i++){
 var indexlower = Math.floor(Math.random() * lower.length)
