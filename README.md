@@ -10,5 +10,5 @@ This project generates a random password, this was obtained by the following:
 
 [URL] (https://bmowrey729.github.io/Password-Generator/)
 
-![Screen Shot ](/assets/screenshot.PNG)
+![Screen Shot ](assets/screenshot.PNG)
 
